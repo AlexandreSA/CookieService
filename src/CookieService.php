@@ -1,9 +1,17 @@
 <?php declare( strict_types = 1 );
 
+namespace App;
 /**
  * CookieService.
  */
 class CookieService {
+	/**
+	 * Delete Cookie
+	 *
+	 * @param string $name Name
+	 * @param boolean $force Default 'false'.
+	 * @return void
+	 */
 	public static function delete_cookie( $name, $force = false ) {
 		if ( $force && isset( $_COOKIE[ $name ] ) ) {
 			unset( $_COOKIE[ $name ] );
