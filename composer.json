@@ -1,0 +1,17 @@
+{
+    "name": "alexandresa/cookie-service",
+    "description": "Cookie Service Provider for PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "CookieService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre S. Anjos",
+            "email": "alexanjos87@hotmail.com"
+        }
+    ],
+    "require": {}
+}
